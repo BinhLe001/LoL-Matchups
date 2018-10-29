@@ -1,0 +1,55 @@
+.App {
+    text-align: center;
+}
+
+.App-body {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 5fr 6fr;
+}
+
+.Teams {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Team {
+    padding: 30px 10px 30px 10px;
+    border-radius: 5px;
+}
+
+#Friendly {
+    margin: 20px 10px 20px 20px;
+    background-color: rgb(187, 228, 241);
+}
+
+#Enemy {
+    margin: 20px 20px 20px 10px;
+    background-color: rgb(245, 179, 179);
+}
+
+.Select {
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    margin: 20px 10px 20px 20px;
+}
+
+.Submit {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 0px 20px 0px 20px;
+}
+
+.Results {
+    margin: 20px 20px 20px 10px;
+}
+
+.select-paper {
+    height: 555px;
+}
+
+.results-paper {
+    height: 555px;
+}

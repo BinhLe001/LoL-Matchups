@@ -10,7 +10,7 @@ class TeamList extends Component {
             ) : (
                 <img
                     className="Champ-icon"
-                    src={'/ChampionIcons/' + this.props.top + '.png'}
+                    src={process.env.PUBLIC_URL + '/ChampionIcons/' + this.props.top + '.png'}
                     alt="champion icon"
                 />
             )
@@ -20,7 +20,7 @@ class TeamList extends Component {
             ) : (
                 <img
                     className="Champ-icon"
-                    src={'/ChampionIcons/' + this.props.jungle + '.png'}
+                    src={process.env.PUBLIC_URL + '/ChampionIcons/' + this.props.jungle + '.png'}
                     alt="champion icon"
                 />
             )
@@ -30,7 +30,7 @@ class TeamList extends Component {
             ) : (
                 <img
                     className="Champ-icon"
-                    src={'/ChampionIcons/' + this.props.middle + '.png'}
+                    src={process.env.PUBLIC_URL + '/ChampionIcons/' + this.props.middle + '.png'}
                     alt="champion icon"
                 />
             )
@@ -40,7 +40,7 @@ class TeamList extends Component {
             ) : (
                 <img
                     className="Champ-icon"
-                    src={'/ChampionIcons/' + this.props.adc + '.png'}
+                    src={process.env.PUBLIC_URL + '/ChampionIcons/' + this.props.adc + '.png'}
                     alt="champion icon"
                 />
             )
@@ -50,7 +50,7 @@ class TeamList extends Component {
             ) : (
                 <img
                     className="Champ-icon"
-                    src={'/ChampionIcons/' + this.props.support + '.png'}
+                    src={process.env.PUBLIC_URL + '/ChampionIcons/' + this.props.support + '.png'}
                     alt="champion icon"
                 />
             )

@@ -1,0 +1,21 @@
+.Position {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-gap: 10px;
+    padding: 13px 0px 13px 0px;
+}
+
+.Champ-icon {
+    height: 35px;
+    width: 40px;
+    border-radius: 5px;
+    background-color: #7a7a7a;
+}
+
+.Champ-empty {
+    height: 35px;
+    width: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}

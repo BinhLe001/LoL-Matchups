@@ -1,0 +1,123 @@
+.App {
+    text-align: center;
+}
+
+.App-header {
+    text-align: left;
+}
+
+.Header-title {
+    color: #54d7c7;
+    font-weight: bold;
+    font-size: 34px;
+    padding: 10px 0px 0px 30px;
+}
+
+.Header-stroke {
+    height: 3px;
+    margin: 10px 30px 0px 30px;
+    background-color: #959595;
+}
+
+.App-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Select {
+    display: grid;
+    grid-template-rows: 1fr 8fr 2fr;
+    margin: 20px 30px 0px 30px;
+}
+
+.Select-bans {
+    color: #f4ca78;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.Ban-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.Ban-champ {
+    height: 30px;
+    margin: 0px 5px 0px 5px;
+    /* border: solid 2px black; */
+    border-radius: 5px;
+    background-color: #7a7a7a;
+}
+
+.Teams {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.Blue-team {
+    border: solid 5px #7ec8fe;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+}
+
+.Red-team {
+    border: solid 5px #e28092;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+}
+
+.Submit {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px 0px 0px 0px;
+}
+
+.Submit-button {
+    height: 50px;
+    border: solid 5px #54d7c7;
+    background-color: #232222;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #54d7c7;
+}
+
+.Submit-button:focus {
+    outline: 0;
+}
+
+.Submit-button:disabled {
+    color: white;
+    height: 50px;
+    border: 0;
+    background-color: #7a7a7a;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: default !important;
+}
+
+.Submit-button:hover {
+    cursor: pointer;
+}
+
+.Results {
+    margin: 10px 10px 0px 10px;
+}
+
+.Blue-title {
+    color: #7ec8fe;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.Red-title {
+    color: #e28092;
+    font-weight: bold;
+    font-size: 28px;
+}

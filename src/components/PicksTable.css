@@ -1,0 +1,27 @@
+.picks-table {
+    margin: 0px 20px 0px 0px;
+    color: white
+}
+
+.picks-loader {
+    color: #54d7c7 !important;
+    margin-top: 50px;
+}
+
+.Table-column {
+    font-size: 28px !important;
+    font-weight: bold !important;
+    color: #54d7c7 !important;
+    text-align: center !important;
+}
+
+.Table-cell {
+    padding: 0px 40px 0px 10px !important;
+    font-size: 18px !important;
+    color: white !important;
+    text-align: center !important;
+}
+
+.Table-row {
+    height: 45px !important;
+}

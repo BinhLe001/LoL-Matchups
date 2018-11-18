@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/LoL-Matchups/static/js/runtime~main.b470daee.js"
   },
   {
-    "revision": "4e884c29d9545aec0af7",
-    "url": "/LoL-Matchups/static/js/main.4e884c29.chunk.js"
+    "revision": "f660ab73e629674cf552",
+    "url": "/LoL-Matchups/static/js/main.f660ab73.chunk.js"
   },
   {
     "revision": "36fab3224b025958673c",
     "url": "/LoL-Matchups/static/js/1.36fab322.chunk.js"
   },
   {
-    "revision": "4e884c29d9545aec0af7",
+    "revision": "f660ab73e629674cf552",
     "url": "/LoL-Matchups/static/css/main.5ab932f1.chunk.css"
   },
   {
-    "revision": "141530cf425f0923da3231c1c14a6723",
+    "revision": "ca50e3c57dfa5e606236b195908086f5",
     "url": "/LoL-Matchups/index.html"
   }
 ];

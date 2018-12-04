@@ -33,23 +33,39 @@
 .Select-bans {
     color: #f4ca78;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 24px;
     text-align: left;
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 1fr 7.5fr;
 }
 
 .Ban-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
 }
 
 .Ban-champ {
-    height: 30px;
-    margin: 0px 5px 0px 5px;
-    /* border: solid 2px black; */
+    height: 35px;
+    width: 40px;
+    margin: 0px 3px 0px 3px;
     border-radius: 5px;
     background-color: #7a7a7a;
+}
+
+.Ban-champ:hover {
+    cursor: pointer;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    /* border: 2px solid orangered */
+}
+
+.Ban-select {
+    width: 110px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+    color: black;
+    margin-right: 5px;
 }
 
 .Teams {

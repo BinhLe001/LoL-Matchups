@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/LoL-Matchups/precache-manifest.90d85056025a9339bd8b47f0737ac525.js"
+  "/LoL-Matchups/precache-manifest.b24ff9dcc2365c446de80db48f5d46d2.js"
 );
 
 workbox.clientsClaim();
